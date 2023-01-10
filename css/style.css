@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap');
+
+@font-face {
+    font-family: 'Big Calson Medium';
+    font-weight: 200;
+    src:
+        url('../fonts/Big_Caslon_Medium/Big_Caslon_Medium.woff2') format('woff2');
+
+}
+
+body {
+    background-color: #FEFEFF;
+    overflow-x: hidden;
+    /* //height: 100vw; */
+    margin: 0;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Big Calson Medium', serif;
+    /* font-family: 'Crimson Text', serif; */
+
+
+    font-weight: 200;
+    font-size: 550%;
+    margin: 0;
+
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 180%;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 100%;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 125%;
+}
+
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 200%;
+}
+
+.menu {
+    background-color: #f4eee9;
+    width: 100vw;
+    height: 15vh;
+}
+
+.sous-title-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    margin-top: 3vh;
+    margin-left: 4vw;
+}
+
+.title-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+    width: 50vw;
+    margin-top: 3vh;
+
+}
+
+.flex-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.student {
+    margin-top: -1.5vh;
+}
+
+.page-info {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: stretch;
+}
+
+.photo-info {
+    background-color: #f4eee9;
+    width: 70vh;
+    height: 70vh;
+    border-radius: 100%;
+    margin-top: 6vh;
+    margin-left: 5vw;
+
+}
+
+.text-info {
+    width: 30vw;
+    display: flex;
+    align-items: center;
+
+    margin-left: 10vw;
+}
+
+.name-info {
+    margin-top: -24vh;
+    margin-left: 5vw;
+}
+
+.page-sommaire {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    /* align-items: center; */
+    align-content: stretch;
+    position: relative;
+
+}
+
+.rect {
+    background-color: #e9e3de;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+
+.rect1 img {
+    width: 20vw;
+}
+
+.rect1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 10vw;
+}
+
+.rect2 img {
+    width: 20vw;
+}
+
+
+.rect2 {
+    position: absolute;
+    margin-left: 10vw;
+    z-index: 2;
+    margin-top: 37vh;
+    margin-left: 15vw;
+}
+
+.rect3 img {
+    height: 15vw;
+}
+
+.rect3 {
+    position: absolute;
+    z-index: 3;
+    margin-top: 54vh;
+    margin-left: 8vw;
+}
+
+.titre-sommaire {
+    width: 50vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.page-title-projet-3D {
+    width: 100vw;
+    height: 100vh;
+    background-color: #e9e3de;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    /* align-items: center; */
+    align-content: stretch;
+}
+
+.title-projet-3D h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 500%;
+    margin: 0;
+}
+
+.title-projet-3D {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-projet-3D {
+    position: relative;
+    margin-top: 10vh;
+
+}
+
+.image-projet-3D img {
+    box-shadow: 5px 5px 3px #4f4c4a;
+
+}
+
+.img1 img {
+    width: 20vw;
+}
+
+.img1 {
+    position: absolute;
+    margin-left: 18vw;
+}
+
+.img2 img {
+    width: 20vw;
+}
+
+.img2 {
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 2vh;
+}
+
+
+.img3 img {
+    width: 23vw;
+}
+
+.img3 {
+    position: absolute;
+    margin-top: 33vh;
+    margin-left: 32vh;
+}
+
+.img4 img {
+    width: 13vw;
+}
+
+.img4 {
+    position: absolute;
+    margin-top: 48vh;
+    margin-left: 14vh;
+}
+
+
+.Crossing-world {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.flex-projet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding-top: 13vh;
+}
+
+.title-projet {
+    margin-left: 3vw;
+    padding-top: 5vh;
+}
+
+.title-projet h2 {
+    font-size: 350%;
+    font-weight: 500;
+}
+
+.explication-projet {
+    width: 35vw;
+}
+
+.explication-projet p {
+    font-size: 125%;
+    font-weight: 300;
+}
