@@ -26,6 +26,11 @@ p {
     margin: 0;
 }
 
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
 h1 {
     font-family: 'Big Calson Medium', serif;
     /* font-family: 'Crimson Text', serif; */
@@ -60,7 +65,7 @@ h3 {
 h5 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 .menu {
@@ -281,11 +286,12 @@ h5 {
 }
 
 
-.Crossing-world {
+
+
+.page-projet {
     width: 100vw;
     height: 100vh;
 }
-
 
 .flex-projet {
     display: flex;
@@ -314,4 +320,127 @@ h5 {
 .explication-projet p {
     font-size: 125%;
     font-weight: 300;
+}
+
+.video {
+    background-color: #e9e3de;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.image-projet img {
+    width: 40vw;
+}
+
+.image-projet {
+    background-color: #e9e3de;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.page-title-projet-programmation {
+    width: 100vw;
+    height: 100vh;
+    background-color: #e9e3de;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    /* align-items: center; */
+    align-content: stretch;
+}
+
+.title-projet-programmation h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 450%;
+    margin: 0;
+}
+
+.title-projet-programmation {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-projet-programmation {
+    position: relative;
+    margin-top: 17vh;
+
+}
+
+.image-projet-programmation img {
+    box-shadow: 5px 5px 3px #4f4c4a;
+
+}
+
+
+.img1-prog img {
+    width: 25vw;
+}
+
+.img1-prog {
+    position: absolute;
+    margin-left: 5vw;
+}
+
+.img2-prog img {
+    width: 25vw;
+}
+
+.img2-prog {
+    position: absolute;
+    margin-top: 42vh;
+    margin-left: 5vh;
+}
+
+
+.img3-prog img {
+    width: 28vw;
+}
+
+.img3-prog {
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 37vh;
+}
+
+.page-contact {
+    width: 100vw;
+    height: 100vh;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center;
+    /* align-items: center;
+    align-content: center; */
+}
+
+.icon img {
+    width: 100px;
+}
+
+.icon {
+    margin-bottom: 3vh;
+}
+
+.page-contact {
+    background-color: #e9e3de;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.title-contact {
+    text-align: center;
+    padding-top: 25vh;
+    padding-bottom: 10vh;
 }
