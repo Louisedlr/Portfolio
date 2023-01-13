@@ -138,12 +138,15 @@ h5 {
 }
 
 .photo-info {
-    background-color: #f4eee9;
+    /* background-color: #f4eee9; */
     width: 70vh;
     height: 70vh;
     border-radius: 100%;
     margin-top: 6vh;
     margin-left: 5vw;
+    background-image: url("../images/image_1.jpg");
+    background-position: center;
+    background-size: 75vh;
 
 }
 
