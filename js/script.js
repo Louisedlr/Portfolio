@@ -14,17 +14,17 @@ menu.addEventListener('click', function() {
 })
 
 
-var tl_sommaire = gsap.timeline({});
-tl_sommaire.from(".titre-sommaire", {opacity:0,x:-200, duration:1});
-tl_sommaire.from(".images-sommaire", { opacity:0, duration:0.5});
+// var tl_sommaire = gsap.timeline({});
+// tl_sommaire.from(".titre-sommaire", {opacity:0,x:-200, duration:1});
+// tl_sommaire.from(".images-sommaire", { opacity:0, duration:0.5});
         
-        ScrollTrigger.create({
-            trigger: "#sommaire",
-            start: "center center",
-            pin: true,
-            scrub: true,
-            animation: tl_sommaire
-        });
+//         ScrollTrigger.create({
+//             trigger: "#sommaire",
+//             start: "center center",
+//             pin: true,
+//             scrub: true,
+//             animation: tl_sommaire
+//         });
 
 
         var tl_3D = gsap.timeline({});

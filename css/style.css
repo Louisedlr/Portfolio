@@ -153,9 +153,18 @@ h5 {
 .text-info {
     width: 30vw;
     display: flex;
-    align-items: center;
-
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
     margin-left: 10vw;
+}
+
+.cv {
+    margin-top: 2vh;
+}
+
+a {
+    color: #8c3e9c;
 }
 
 .name-info {
